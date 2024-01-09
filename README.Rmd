@@ -1,0 +1,50 @@
+---
+title: "Data and Reproducibility of the Article TetraScatt model (...)"
+author: "Juan D. Gonzalez"
+date: "January, 2024"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data and Reproducibility of the Article "TetraScatt model: Born approximation for the estimation of acoustic dispersion of fluid-like objects of arbitrary geometries."
+
+## Summary
+
+This repository is for reproducing the analysis and model results of  the article
+_Robust Model-Based_ Clustering whose authors are  [Edmundo F. Lavia](https://scholar.google.com/citations?user=-IUa7a0AAAAJ&hl=en), 
+[Guadalupe Cascallares](https://scholar.google.com/citations?user=PNstC0kAAAAJ&hl=en), and [Juan Domingo Gonzalez.](https://scholar.google.com/citations?user=NdCPiVcAAAAJ&hl=en&oi=ao). 
+
+Firstly, you should install the tetrascatt package from CRAN, by typing  
+``` {r eval= FALSE}
+install.packages(tetrascatt)
+``` 
+Once you have already installed the [tetrascatt](https://github.com/jdgonzalezwork/RMBC/),  
+the last thing you should do in order to reproduce the results is to download 
+this repository and run in R
+
+```{r eval= FALSE}
+source("plot_fig3.R")
+```
+This command will do the following steps
+
+* Install the package "tetrascatt" from CRAN. This packages implements the model
+developed in [1] 
+
+
+* Install the necessary packages from CRAN, namely
+  * [`ggplot2`](https://cran.r-project.org/web/packages/ggplot2/index.html)
+  * [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
+  * [`latex2exp`](https://cran.r-project.org/web/latex2exp/index.html)
+  * [`tetrascatt`](https://cran.r-project.org/web/packages/tetrascatt/index.html)
+* Install the package that is not in CRAN, [`ZooScatR`](https://cran.r-project.org/web/packages/mclust/index.html)
+(NOTE: `devtools` should be previously installed in R. )
+* Upload external data such as tables including results that comes for complex and demanding models as BEM, or Spheroidal Wave functions, upload the volumetric meshes involving in the using of tetrascat model, and the  auxiliary routines that aid to plot the results 
+  
+
+Finally, if success, the program is supposed to reproduce figure 3, 4,5,6,7,8, and 10 from reference [1], for doing that you should run `source("plot_fig4.R")`,`source("plot_fig5.R")`, etc.  
+
+**Reference**:   
+[[1] Lavia, E. F., Cascallares, G., & Gonzalez, J. D. (2023). TetraScatt model: Born approximation for the estimation of acoustic dispersion of fluid-like objects of arbitrary geometries. arXiv preprint arXiv:2312.16721.](https://arxiv.org/pdf/2312.16721.pdf)
