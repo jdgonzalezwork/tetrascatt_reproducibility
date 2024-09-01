@@ -3,7 +3,7 @@
 ## Summary
 
 This repository is for reproducing the analysis and model results of the
-article *Tetrascatt model ...* Clustering whose authors are [Edmundo F.
+article *Tetrascatt model ...* whose authors are [Edmundo F.
 Lavia](https://scholar.google.com/citations?user=-IUa7a0AAAAJ&hl=en),  [Guadalupe Cascallares](https://scholar.google.com/citations?user=PNstC0kAAAAJ&hl=en), and [Juan Domingo Gonzalez.](https://scholar.google.com/citations?user=NdCPiVcAAAAJ&hl=en&oi=ao).
 Firstly, you should install the tetrascatt package from CRAN, by typing
 
