@@ -20,8 +20,7 @@ This command will do the following steps
     -   [`ggplot2`](https://cran.r-project.org/web/packages/ggplot2/index.html)
     -   [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
     -   [`latex2exp`](https://cran.r-project.org/web/packages/latex2exp/index.html)
-    -   [`tetrascatt`](https://cran.r-project.org/web/packages/otrimle/index.html)
-
+    
 -   Install the package that is not in CRAN, [`ZooScatR`](https://github.com/AustralianAntarcticDivision/ZooScatR)
     NOTE: `devtools` should be previously installed in R.
 
