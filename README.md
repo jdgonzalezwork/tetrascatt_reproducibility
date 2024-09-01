@@ -7,7 +7,7 @@ article *Robust Model-Based* Clustering whose authors are [Edmundo F.
 Lavia](https://scholar.google.com/citations?user=-IUa7a0AAAAJ&hl=en),  [Guadalupe Cascallares](https://scholar.google.com/citations?user=PNstC0kAAAAJ&hl=en), and [Juan Domingo Gonzalez.](https://scholar.google.com/citations?user=NdCPiVcAAAAJ&hl=en&oi=ao).
 Firstly, you should install the tetrascatt package from CRAN, by typing
 
-    install.packages(tetrascatt)
+    install.packages("tetrascatt")
 
 Once you have already installed the [tetrascatt](https://cran.r-project.org/web/packages/tetrascatt/index.html), the last thing you should do in order to reproduce the results is to download this repository and run in R: 
     source("plot_fig3.R")
