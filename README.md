@@ -10,7 +10,7 @@ Firstly, you should install the tetrascatt package from CRAN, by typing
     install.packages("tetrascatt")
 
 Once you have already installed the [tetrascatt](https://cran.r-project.org/web/packages/tetrascatt/index.html), the last thing you should do in order to reproduce the results is to download this repository and run in R: 
-    source("plot_fig3.R")
+    source("plot_fig3.R") 
 
 This command will do the following steps
 -   Install the package “tetrascatt” from CRAN. This packages implements the model developed in the Ref. [1]
